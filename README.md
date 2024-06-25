@@ -1,12 +1,12 @@
+# Short Summary 
+This work proposes a novel method for early identification of Lottery-Tickets in Transformer-Based architechtures. It utilizes the nuclear norm of pruning masks as measure
+of information combined with time-series techniques to assess their stationarity, resulting in more stable identification and fewer false positives than current practices involving the Hamming Distances of consecutive masks.
+
 This repo implements:
 - Structured pruning for Transformer architechtures
 - Early Identification of Lottery Tickets (LT) using time-series techniques for stationarity detection in slimming coefficient trajectories
 - Early LT identification and pruning during finetuning of ViT and Bert models
 - Early LT identification and pruning during pre-training of a small ViT on CIFAR-10
-
-# Short Summary 
-This work proposes a novel method for early identification of Lottery-Tickets in Transformer-Based architechtures. It utilizes the nuclear norm of pruning masks as measure
-of information combined with time-series techniques to assess their stationarity, resulting in more stable identification and fewer false positives than current practices involving the Hamming Distances of consecutive masks.
 
 # Directory Structure
 The `Finetuning` directory contains the code to replicate results of finetuning with Bert and Google ViT model.
